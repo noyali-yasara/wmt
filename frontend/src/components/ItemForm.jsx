@@ -52,11 +52,12 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
         onChange={handleChange}
         required
       />
-      <label>WarrantyTerms</label>
+      
+      <label>Warranty Terms</label>
       <textarea
-        name="WarrantyTerms"
+        name="warrantyTerms" 
         rows="4"
-        value={formData.WarrantyTerms}
+        value={formData.warrantyTerms}  
         onChange={handleChange}
         required
       />
